@@ -1,16 +1,8 @@
+// vim:ts=2 sw=2 sts=2:
 @import url('http://fonts.googleapis.com/css?family=Droid+Sans:regular,bold');
 
 /* layout */
 
-body {
-  text-align: center;
-}
-#body {
-  width: 900px;
-  margin: 0 auto;
-  border-left: solid 3px #EBEFF9;
-  border-right: solid 3px #EBEFF9;
-}
 #nav, #main {
   text-align: left;
 }
@@ -25,8 +17,7 @@ body {
 /* body styles */
 
 body {
-  font-family: 'Droid Sans', Helvetica, Arial, serif;
-  padding: 20px 0;
+  font-family: "ff-meta-serif-web-pro-1","ff-meta-serif-web-pro-2", Georgia,"Times New Roman", Times, serif
 }
 
 #main {
@@ -63,9 +54,9 @@ body {
 }
 /*
 #nav li:hover {
-  background-color: #DDE5F9;
+background-color: #DDE5F9;
 }
-*/
+ */
 
 #header {
   clear: both;
@@ -79,16 +70,6 @@ hr {
 }
 
 /* styles */
-
-a {
-  text-decoration: none;
-}
-a:visited {
-  color: blue;
-}
-a:hover {
-  text-decoration: underline;
-}
 
 .note {
   padding: 0 15px;
@@ -113,3 +94,47 @@ a:hover {
 .documentation {
   background-image: url('../images/text-x-generic.png');
 }
+
+.apiname {
+  font-family: monospace;
+  font-weight: bold
+}
+
+.ph {
+  font-style: italic;
+}
+
+h1, h2, h3, h4, h4 {
+  color: #A30A0A
+}
+
+/* links */
+a,
+a:link,
+a:visited {
+  color: #0A72A3;
+  text-decoration: none;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: #A30A0A;
+  text-decoration: underline;
+  outline: none;
+}
+
+a.currentnav { 
+  background-color: #A30A0A;
+  color: #FCFDFB;
+  padding: 1px;
+}
+
+.doc_link_prev:before {
+  content: "\00ab\0020";
+}
+
+.doc_link_next:after {
+  content: "\0020\00bb";
+}
+

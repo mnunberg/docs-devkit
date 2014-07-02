@@ -35,6 +35,9 @@
 				<link
 					href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css"
 					rel="stylesheet" />
+                <link
+                    href="../css/base.css"
+                    rel="stylesheet" />
 				<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js" />
 
 				<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -70,8 +73,8 @@
 				<hr />
 
 				<footer>
-					<p style="text-align: center;">copyright 2014 <a href="http://www.couchbase.com/"
-							>Couchbase</a></p>
+					<p style="text-align: right;">Copyright &#169; 2014 <a href="http://www.couchbase.com/"
+							>Couchbase, Inc.</a></p>
 				</footer>
 
 			</body>
