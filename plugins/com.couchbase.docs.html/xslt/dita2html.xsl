@@ -103,8 +103,8 @@
 	<xsl:template match="*" mode="gen-user-sidetoc">
 		<nav class="span3">
 			<!--xsl:apply-templates select="$input.map/*[contains(@class, ' map/map ')]" mode="toc-pull"/-->
-			<div class="well">
-				<ul class="nav nav-list">
+			<div class="navbar-outer">
+				<ul class="nav nav-tabs nav-stacked pull-left">
 					<xsl:apply-templates select="$current-topicrefs[1]" mode="toc-pull">
 						<xsl:with-param name="pathFromMaplist" select="$PATH2PROJ" />
 						<xsl:with-param name="children">

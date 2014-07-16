@@ -2,84 +2,94 @@
 
 /* layout */
 
-
 #body {
-  width: 900px;
-  margin: 0 auto;
-  border-left: solid 3px #EBEFF9;
-  border-right: solid 3px #EBEFF9;
+    width: 900px;
+    margin: 0 auto;
+    border-left: solid 3px #EBEFF9;
+    border-right: solid 3px #EBEFF9;
 }
 #nav, #main {
-  text-align: left;
+    text-align: left;
 }
 #nav {
-  width: 180px;
-  float: left;
+    width: 180px;
+    float: left;
 }
 #main {
-  margin-left: 200px;
+    margin-left: 200px;
 }
 
 /* my styles */
 .brand .logo {
-  position: relative;
-  top: 2px;
+    position: relative;
+    top: 2px;
 }
 .navbar .nav {
-  position: relative;
-  top: 2px;
+    position: relative;
+    top: 2px;
 }
 
 .navbar .navbar-inner {
-  /*background-color: #000552;*/
-  background-color: #eee;
-  background-image: none;
+    /*background-color: #000552;*/
+    background-color: #eee;
+    background-image: none;
 }
 
 body {
-	font-family:'Open Sans', sans-serif;
-	padding: 50px 0;
+    font-family: "ff-meta-serif-web-pro-1","ff-meta-serif-web-pro-2", Georgia,"Times New Roman", Times, serif;
+    padding: 50px 0;
+    color: #555;
+}
+
+nav {
+    font-weight: bold;
+    font-size: 85%;
 }
 
 h1 {
-	margin-bottom: 0.75em;
+    margin-bottom: 0.75em;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	/*color: #000666;*/
-	color: #a30a0a;
+    /*color: #000666;*/
+    color: #a30a0a;
+    font-family: "Open Sans", sans-serif;
+}
+
+.navbar, thead, a {
+    font-family: "Open Sans", sans-serif;
 }
 
 h2 {
-	border-bottom: solid;
-	border-color: #000666;
-	border-width: thin;
-	padding-top: 0.5em;
-	padding-bottom: 2px;
+    border-bottom: solid;
+    border-color: #000666;
+    border-width: thin;
+    padding-top: 0.5em;
+    padding-bottom: 2px;
 }
 
 ul {
-	list-style-type: square;
+    list-style-type: square;
 }
 
 div.copyright {
-	text-align: center;
-	color: #000552;
-	font-size: xx-small;
-	padding-top: 10px;
+    text-align: center;
+    color: #000552;
+    font-size: xx-small;
+    padding-top: 10px;
 }
 
 
 div.note {
-	border: solid #6669a3;
-	border-width: thin thin thin 10px;
-	padding: 0.5em;
-	margin: 10px 0px;
+    border: solid #6669a3;
+    border-width: thin thin thin 10px;
+    padding: 0.5em;
+    margin: 10px 0px;
 }
 
 .notetitle {
-	display: block;
-	font-weight: bold;
+    display: block;
+    font-weight: bold;
 }
 
 
@@ -87,74 +97,119 @@ div.note {
 /*
 
 #main {
-  border-left: solid 3px #EBEFF9;
-  padding: 0 15px;
+border-left: solid 3px #EBEFF9;
+padding: 0 15px;
 }
 
 #header {
-  background-color: #EBEFF9;
+background-color: #EBEFF9;
 }
 #header h1 {
-  padding: 5px;
-  text-align: left;
+padding: 5px;
+text-align: left;
 }
 #header a {
-  color: black;
-  text-decoration: none;
+color: black;
+text-decoration: none;
 }
-*/
+ */
 
 /* navigation */
 
 /*
 #nav {
-  padding-right: 5px;
-  font-size: 12px;
+padding-right: 5px;
+font-size: 12px;
 }
 #nav ul {
-  padding-left: 15px;
-  margin: 0;
-  list-style: none;
+padding-left: 15px;
+margin: 0;
+list-style: none;
 }
 #nav > ul > li > a,
 #nav > ul > li > span {
-  font-weight: bold;
+font-weight: bold;
 }
 
-*/
+ */
 
 /*
 #nav li:hover {
-  background-color: #DDE5F9;
+background-color: #DDE5F9;
 }
 
 
 #header {
-  clear: both;
+clear: both;
 }
 #footer {
-  clear: both;
+clear: both;
 }
 
 hr {
-  display: none;
+display: none;
 }
-*/
+ */
 
 /* styles */
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 a:visited {
-  color: blue;
+    color: blue;
 }
 a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
+
+
+.apiname {
+    font-family: monospace;
+    font-weight: bold
+}
+
+.ph {
+    font-style: italic;
+}
+
+h1, h2, h3, h4, h4 {
+    color: #A30A0A
+}
+
+/* links */
+a,
+a:link,
+a:visited {
+    color: #0A72A3;
+    text-decoration: none;
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: #A30A0A;
+    text-decoration: underline;
+    outline: none;
+}
+
+a.currentnav { 
+    background-color: #A30A0A;
+    color: #FCFDFB;
+    padding: 1px;
+}
+
+.doc_link_prev:before {
+    content: "\00ab\0020";
+}
+
+.doc_link_next:after {
+    content: "\0020\00bb";
+}
+
 
 /*
 .note {
-  padding: 0 15px;
+padding: 0 15px;
 }
-*/
+ */
